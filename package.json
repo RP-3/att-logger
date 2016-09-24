@@ -1,0 +1,12 @@
+{
+  "name": "att-logger",
+  "version": "0.0.1",
+  "description": "Logs internet conenctivity by pinging Google",
+  "main": "index.js",
+  "author": "RP-3 <sarith21@gmail.com> (http://suchisthepowerofjs.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^0.10.0",
+    "pg": "^4.5.1",
+  }
+}
