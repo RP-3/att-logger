@@ -7,6 +7,6 @@
   "license": "ISC",
   "dependencies": {
     "knex": "^0.10.0",
-    "pg": "^4.5.1",
+    "pg": "^4.5.1"
   }
 }

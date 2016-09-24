@@ -1,4 +1,3 @@
-var moment = require('moment');
 var http = require('http');
 
 var knex = require('knex')({
