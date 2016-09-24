@@ -13,7 +13,7 @@ var knex = require('knex')({
 
 setInterval(function(){
   logAttStatus();
-}, 30000);
+}, 60000);
 
 function logAttStatus(){
 
