@@ -8,6 +8,8 @@ exports.up = function(knex, Promise) {
     t.timestamp('timestamp')
       .notNullable()
       .defaultTo(knex.fn.now());
+    t.integer('response_time')
+      .index();
     t.integer('status_code')
       .index();
     t.string('status_message')
