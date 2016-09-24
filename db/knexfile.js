@@ -16,7 +16,8 @@ module.exports = {
     connection: {
       host: '127.0.0.1',
       database: 'att_logger',
-      user: 'postgres'
+      user: 'postgres',
+      password: 'postgres'
     },
     migrations: {
       tableName: 'knex_migrations'
