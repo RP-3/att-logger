@@ -4,7 +4,10 @@ var knex = require('knex')({
   client: 'pg',
   connection: {
     host     : '127.0.0.1',
-    database : 'att_logger'
+    database : 'att_logger',
+    //comment out user and password for dev
+    user: 'postgres',
+    password: 'postgres'
   }
 });
 
